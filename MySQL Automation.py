@@ -1,3 +1,5 @@
+#This code creates database and tables in mysql
+
 #Importing the required libraries
 import pyautogui as p
 import time as t
@@ -35,7 +37,7 @@ for i in range(1,a+1):
 # Automation code begins from here: -
 
 #Enter the path to MySQL Command Line Client.lnk
-os.startfile(r"C:\Users\nites\Desktop\MySQL 8.0 Command Line Client.lnk")
+os.startfile(r"path to MySQL 8.0 Command Line Client.lnk")
 t.sleep(2)
 #p.typewrite('password')#enter the password
 t.sleep(0.8)
